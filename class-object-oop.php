@@ -6,7 +6,7 @@ class Fruit {
     public $color;
 
     // Methods
-    function colors (){
+    function introduction (){
         return $this->name . " - " . $this->color;
     }
 }
@@ -16,7 +16,6 @@ $apple = new Fruit();
 $apple->name = "Apel";
 $apple->color = "Merah";
 
-echo $apple->colors();
-
+echo $apple->introduction();
 
 ?>
